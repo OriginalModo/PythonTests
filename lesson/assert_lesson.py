@@ -53,4 +53,4 @@ if __name__ == '__main__':
     assert password_strength('123456aQ') == 'Very Good'
     assert password_strength('aaaaaaaA1') == 'Very Good'
     assert password_strength('QQQSSSSSSS1a') == 'Very Good'
-    print('Good news!')
+    print('Good ALL Tests')
