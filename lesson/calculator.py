@@ -17,7 +17,10 @@ def calculator(expression):
             except (ValueError, TypeError):
                 raise ValueError(f'Ошибка: 2 целых числа')
 
+def plus(a: int, b: int) -> int:
+    return a + b
+
 if __name__ == '__main__':
-    print(calculator('8 + 9'))
+    print(plus(10, 10))
 
 
