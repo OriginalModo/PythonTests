@@ -3,9 +3,10 @@ import random
 data = []
 value = 8
 
+
 def solution():
     for i in range(5):
-        result = ''.join(str(random.randint(0,9)) for _ in range(value))
+        result = ''.join(str(random.randint(0, 9)) for _ in range(value))
         print(result)
         data.append(result)
     print(data)
@@ -15,6 +16,6 @@ def solution():
     with open('test.txt', 'w') as file:
         file.write('\n'.join(data))
 
-if  __name__ == '__main__':
-    solution()
 
+if __name__ == '__main__':
+    solution()
