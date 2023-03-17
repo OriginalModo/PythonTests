@@ -8,6 +8,7 @@ if __name__ == '__main__':
     full = 100
     new = f'{a} {b}'
     print(f'{real/full:.2%}')
+    print(f'{result:.3f}')
     print(new)
 
 
