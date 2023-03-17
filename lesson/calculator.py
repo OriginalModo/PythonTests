@@ -18,6 +18,7 @@ def calculator(expression):
                 raise ValueError(f'Ошибка: 2 целых числа')
 
 def plus(a: int, b: int) -> int:
+    """Function PLUS (+)"""
     return a + b
 
 if __name__ == '__main__':
