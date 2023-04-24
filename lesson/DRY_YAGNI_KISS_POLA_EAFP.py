@@ -11,7 +11,6 @@ from Tools.scripts.win_add2path import PATH
 
 # DRY
 
-
 # def func():
 #     # some code
 #     with open('test.txt') as file:
