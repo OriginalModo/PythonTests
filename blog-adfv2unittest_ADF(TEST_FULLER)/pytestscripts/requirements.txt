@@ -1,0 +1,9 @@
+pytest
+pytest-cov
+pytest-xdist
+msrestazure
+adal
+pyodbc
+pyarrow
+azure-core
+azure-storage-blob
